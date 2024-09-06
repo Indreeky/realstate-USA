@@ -1,3 +1,79 @@
 __pycache__
 .env
 .learn
+
+
+# Ignorar archivos de configuración de entornos de desarrollo
+.vscode/
+.devcontainer/
+
+# Ignorar archivos de datos procesados o temporales
+data/raw/
+data/interim/
+data/processed/*.csv
+data/processed/*.json
+data/processed/*.xlsx
+data/processed/*.parquet
+data/processed/*.feather
+
+# Ignorar modelos entrenados o archivos generados por scripts
+models/
+*.h5
+*.pkl
+*.joblib
+*.sav
+
+# Ignorar entornos virtuales
+venv/
+env/
+.virtualenv/
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignorar checkpoints de Jupyter Notebook (pero no los notebooks en sí)
+*.ipynb_checkpoints/
+*.checkpoint.ipynb
+
+# Ignorar archivos generados por Jupyter nbconvert
+*.nbconvert/
+
+# Ignorar archivos relacionados con Docker
+Dockerfile
+docker-compose.yml
+
+# Ignorar archivos de entorno
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.example
+
+# Ignorar archivos de logs
+*.log
+logs/
+*.out
+*.err
+
+# Ignorar archivos temporales o de caché del sistema
+*.DS_Store
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+
+# Ignorar archivos de resultados de ejecución
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.json
+
+# Ignorar archivos de configuración de Gitpod
+.gitpod.yml
+
+# Archivos permitidos explícitamente
+!src/**/*.ipynb
