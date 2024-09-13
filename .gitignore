@@ -77,3 +77,5 @@ logs/
 
 # Archivos permitidos explícitamente
 !src/**/*.ipynb
+!models/*.pkl
+!data/interim/data_dict.json
